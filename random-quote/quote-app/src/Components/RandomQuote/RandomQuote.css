@@ -1,0 +1,40 @@
+#quote-box{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin:auto;
+    margin-top:250px;
+    background: white;
+    width:700px;
+    border-radius:10px;
+}
+#text{
+    padding:60px 100px;
+    color: rgba(9, 64, 82, 0.867);
+    font-size:32px;
+    text-align:center;
+}
+#author{
+    text-align: right;
+}
+.line{
+  width:500px;
+  height:1.5px;
+  background: rgba(9, 64, 82, 0.867);  
+}
+
+.bottom{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:30px 0px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.icons img{
+    cursor:pointer;
+    height:36px;
+}
